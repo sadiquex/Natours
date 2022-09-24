@@ -12,7 +12,7 @@
   <body>
     <header class="header">
       <div class="header__logo-box">
-        <img src="/img/logo-white.png" alt="The Logo" class="header__logo" />
+        <img src="./img/logo-white.png" alt="The Logo" class="header__logo" />
       </div>
 
       <div class="header__text-box">
@@ -255,8 +255,8 @@
       <section class="section-stories">
         <div class="bg-video">
           <video class="bg-video__content" autoplay muted loop>
-            <source src="/img/video.mp4" type="video/mp4">
-            <source src="/img/video.webm" type="video/webm">
+            <source src="/img/video.mp4" type="video/mp4" />
+            <source src="/img/video.webm" type="video/webm" />
             Your browser is not supported!
           </video>
         </div>
@@ -267,12 +267,25 @@
         <div class="row">
           <div class="story">
             <figure class="story__shape">
-              <img src="img/nat-8.jpg" alt="Person on a tour" class="story__image"> 
+              <img
+                src="img/nat-8.jpg"
+                alt="Person on a tour"
+                class="story__image"
+              />
               <figcap class="story__caption">Mary Smith</figcap>
             </figure>
             <div class="story__text">
-              <h3 class="heading-tertiary u-margin-bottom-small"> I had the best week ever with my family</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum asperiores, laboriosam ullam quisquam alias quas ipsa, voluptas optio repellat ratione, maxime explicabo modi vitae natus. Sapiente doloremque illum sequi nesciuntorem ipsum dolor sit amet consectetur adipisicing elit. Illum asperiores, laboriosam ullam quisquam alias quas ipsa, voluptas optio repel.</p>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                I had the best week ever with my family
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                asperiores, laboriosam ullam quisquam alias quas ipsa, voluptas
+                optio repellat ratione, maxime explicabo modi vitae natus.
+                Sapiente doloremque illum sequi nesciuntorem ipsum dolor sit
+                amet consectetur adipisicing elit. Illum asperiores, laboriosam
+                ullam quisquam alias quas ipsa, voluptas optio repel.
+              </p>
             </div>
           </div>
         </div>
@@ -280,12 +293,25 @@
         <div class="row">
           <div class="story">
             <figure class="story__shape">
-              <img src="img/nat-9.jpg" alt="Person on a tour" class="story__image"> 
+              <img
+                src="img/nat-9.jpg"
+                alt="Person on a tour"
+                class="story__image"
+              />
               <figcap class="story__caption">Jack Wilson</figcap>
             </figure>
             <div class="story__text">
-              <h3 class="heading-tertiary u-margin-bottom-small">Wow! My life is completely different now</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum asperiores, laboriosam ullam quisquam alias quas ipsa, voluptas optio repellat ratione, maxime explicabo modi vitae natus. Sapiente doloremque illum sequi nesciuntorem ipsum dolor sit amet consectetur adipisicing elit. Illum asperiores, laboriosam ullam quisquam alias quas ipsa, voluptas optio repel.</p>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Wow! My life is completely different now
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                asperiores, laboriosam ullam quisquam alias quas ipsa, voluptas
+                optio repellat ratione, maxime explicabo modi vitae natus.
+                Sapiente doloremque illum sequi nesciuntorem ipsum dolor sit
+                amet consectetur adipisicing elit. Illum asperiores, laboriosam
+                ullam quisquam alias quas ipsa, voluptas optio repel.
+              </p>
             </div>
           </div>
         </div>
@@ -293,7 +319,64 @@
         <div class="u-center-text u-margin-top-huge">
           <a href="#" class="btn-text">Read all stories &rarr;</a>
         </div>
-        
+      </section>
+
+      <section class="section-book">
+        <div class="row">
+          <div class="book">
+            <div class="book__form">
+              <form action="#" class="form">
+                <div class="u-margin-bottom-medium">
+                  <h2 class="heading-secondary">Start Booking Now</h2>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="text"
+                    class="form__input"
+                    id="name"
+                    placeholder="Full Name"
+                    required
+                  />
+                  <label for="name" class="form__label">Full Name</label>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="email"
+                    class="form__input"
+                    id="email"
+                    placeholder="Email Address"
+                    required
+                  />
+                  <label for="email" class="form__label">Email Address</label>
+                </div>
+                
+                <div class="form__group u-margin-bottom-medium">
+                  <div class="form__radio-group">
+                    <input type="radio" class="form__radio-input" id="small" name="small">
+                    <label for="small" class="form__radio-label">
+                      <span class="form__radio-button"></span>
+                      Small tour group</label>
+                  </div>
+
+                  <div class="form__radio-group">
+                    <input type="radio" class="form__radio-input" id="large" name="small">
+                    <label for="large" class="form__radio-label">
+                      <span class="form__radio-button"></span>
+                      large tour group</label>
+                  </div>
+                </div>
+
+                <div class="form__group">
+                  <button class="btn btn--green">Next Step &rarr;</button>
+                </div>
+                
+                
+              </form>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
