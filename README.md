@@ -16,6 +16,7 @@
 - In a background video, add 'autoplay, mute and loop' to the parent element, to make video play accordingly
 - "object-fit:cover" fills the element while still having that aspect ratio
 - "invalid" element in css can be used to style form inputs which are not correct.
+- Use the anchor style to link to another section
 
 #### How to compile sass code
 
