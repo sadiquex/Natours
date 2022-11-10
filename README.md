@@ -2,6 +2,8 @@
 
 ---
 
+## [Live Link](https://sadiquex.github.io/Natours/)
+
 #### __*A fully functioning front of a website made with SASS*__
 
 #### Things I've learnt
